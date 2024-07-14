@@ -21,7 +21,7 @@ Periodic startup for time-lapse photography or data collection.
 
 ## Typical configurations
 
-In most cases the ESP-Power-Saver will run from the same power supply, usually a 5V LiPo power-bank, as used to power the Raspberry Pi.
+In most cases the ESP-Power-Saver will run from the same power supply, usually a LiPo power-bank, as used to power the Raspberry Pi.
 
 The Pi enters power-saving state by issuing ```sudo poweroff```
 
@@ -29,7 +29,7 @@ The power-saver will restart the Pi at a pre-determined time, or after a pre-det
 
 ## Scheduling
 
-Raspberry Pi computers, other than the new RPi 5, do not have real-time-clock (RTC) hardware.  To determine the current time and date, the computer uses its Internet connection or and attached device to get the current time from an Internet Time Server.
+Raspberry Pi computers, other than the new RPi 5, do not have real-time-clock (RTC) hardware.  To determine the current time and date, the computer uses its Internet connection or an attached device to get the current time from an Internet Time Server.
 
 ### Internet access
 
@@ -45,7 +45,7 @@ Where Internet access is not available, but accurate time is required a cellular
 
 ### Duty-cycle scheduling
 
-In cases where there is no accurate time source, typically where there is no Internet access and no RTC, ESP-Power-Saver can be configured to run i duty-cycle mode, for example 2 minutes on, followed by 30 minutes off.  This might be used for data logging, or time-lapse photography.
+In cases where there is no accurate time source, typically where there is no Internet access and no RTC, ESP-Power-Saver can be configured to run in duty-cycle mode, for example 2 minutes on, followed by 30 minutes off.  This might be used for data logging or time-lapse photography.
 
 
 ## Shutdown method
