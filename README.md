@@ -1,8 +1,9 @@
 # esp-power-saver
+
 Automated supply control for battery powered devices
 
-
 ## Purpose
+
 This device can restart a powered-down battery-powered device such as a Raspberry Pi.
 
 ## Assumption
@@ -13,7 +14,9 @@ This is true for all Raspberry Pi computers, other devices might require some co
 
 ## Typical uses
 
+Overnight shutdown.
 
+Periodic startup for time-lapse photography or data collection.
 
 
 ## Typical configurations
